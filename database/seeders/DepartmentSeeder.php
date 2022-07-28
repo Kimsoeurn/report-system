@@ -11,67 +11,67 @@ class DepartmentSeeder extends Seeder
     {
         Department::create([
             'name' => 'Information Technology',
-            'abbr' => 'IT'
+            'abbr' => 'IT',
         ]);
 
         Department::create([
             'name' => 'Human Resource',
-            'abbr' => 'HR'
+            'abbr' => 'HR',
         ]);
 
         Department::create([
             'name' => 'Front Service',
-            'abbr' => 'FS'
+            'abbr' => 'FS',
         ]);
 
         Department::create([
             'name' => 'Store Purchase',
-            'abbr' => 'SP'
+            'abbr' => 'SP',
         ]);
 
         Department::create([
             'name' => 'Gaming Office',
-            'abbr' => 'GO'
+            'abbr' => 'GO',
         ]);
 
         Department::create([
             'name' => 'Security Office',
-            'abbr' => 'SO'
+            'abbr' => 'SO',
         ]);
 
         Department::create([
             'name' => 'Cashier',
-            'abbr' => 'CH'
+            'abbr' => 'CH',
         ]);
 
         Department::create([
             'name' => 'House Keeping',
-            'abbr' => 'HK'
+            'abbr' => 'HK',
         ]);
 
         Department::create([
             'name' => 'Maintenance',
-            'abbr' => 'MO'
+            'abbr' => 'MO',
         ]);
 
         Department::create([
             'name' => 'Online Lucky 369',
-            'abbr' => 'OL'
+            'abbr' => 'OL',
         ]);
 
         Department::create([
             'name' => 'Online Room A',
-            'abbr' => 'ORA'
+            'abbr' => 'ORA',
         ]);
 
         Department::create([
             'name' => 'Online Room B',
-            'abbr' => 'ORB'
+            'abbr' => 'ORB',
         ]);
 
         Department::create([
             'name' => 'Online Room C',
-            'abbr' => 'ORC'
+            'abbr' => 'ORC',
         ]);
     }
 }
